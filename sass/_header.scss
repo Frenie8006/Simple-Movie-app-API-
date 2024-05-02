@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+  background-color: $secondary-color;
+
+  .search {
+    background-color: transparent;
+    border: 2px solid $primary-color;
+    font-family: inherit;
+    border-radius: 50px;
+    font-size: 1.6rem;
+    padding: 1rem 1.4rem;
+
+    &::placeholder {
+      color: #7378c5;
+    }
+
+    &:focus {
+      outline: none;
+      background-color: $primary-color;
+    }
+  }
+}
