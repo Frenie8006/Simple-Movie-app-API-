@@ -54,10 +54,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  gap: 3rem;
   flex-wrap: wrap;
   padding: 2rem 1rem;
 }
 .section-movie .movie {
+  align-self: flex-end;
   background-color: #373b69;
   width: 30rem;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);

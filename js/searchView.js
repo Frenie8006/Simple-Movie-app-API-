@@ -13,6 +13,8 @@ class FormView {
       if (searchTerm && searchTerm !== '') {
         handler(SEARCH_API + searchTerm);
         this._search.value = '';
+      } else {
+        window.location.reload();
       }
     });
   }

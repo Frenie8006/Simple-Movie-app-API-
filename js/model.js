@@ -15,15 +15,7 @@ export const getSearchData = async function (searchQ) {
   try {
     const data = await getAJAX(searchQ);
 
-    const uniqueData = data.results.map(result => {
-      return {
-        title: result.title,
-        posterPath: result.poster_path,
-        voteAverage: result.vote_average,
-        overview: result.overview,
-      };
-    });
-    return uniqueData;
+    return data;
   } catch (err) {
     throw err;
   }
