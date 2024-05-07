@@ -34,6 +34,15 @@
       rel="stylesheet"
     />
 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
     <link rel="stylesheet" href="sass/main.scss" />
     <link rel="stylesheet" href="sass/main.css" />
 
@@ -43,6 +52,10 @@
   </head>
   <body>
     <header class="header">
+      <div class="logo">
+        <span>Watch32</span>
+        <ion-icon class="icon" name="videocam-outline"></ion-icon>
+      </div>
       <form id="form">
         <input type="text" class="search" id="search" placeholder="Search" />
       </form>
@@ -50,7 +63,7 @@
 
     <main class="main">
       <section class="section-movie">
-        <span class="text-intro">Search Your Favorite Movies</span>
+        <!-- <span class="message">No title found. Please try again!</span> -->
         <!-- <div class="movie">
           <img
             class="movie__img"
