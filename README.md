@@ -1,5 +1,6 @@
-I want to share with you guyz a very simple simple "Web Movie Application." I used API from https://www.themoviedb.org/ 
-I also used some modules and classes to build this small application.
-I try my best not to make my code like spaghetti code, and I know a bit of DRY principles, so good for me.
-You can even enhanced the code if you want and and any feature you want.
-Have fun!
+# Movie Web Application
+
+I want to share with you guyz my very simple simple website. **[This is the API I'd used](https://www.themoviedb.org/)**,
+I've also incorporate some `modules` and `classes` to the project.
+I try my best not to make my code like `spaghetti code`, and I know a bit of DRY principles, so YEAH good for me.
+You can enhanced this project or add more features as you like it. Have fun!
